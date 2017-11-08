@@ -16,3 +16,8 @@ Given: A DNA string t having length at most 1000 nt.
 
 Return: The transcribed RNA string of t.
 ___
+#### 03 Complementing a Strand of DNA
+Given: A DNA string s of length at most 1000 bp.
+
+Return: The reverse complement s<sup>c</sup> of s.
+___
