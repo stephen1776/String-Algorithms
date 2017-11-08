@@ -1,4 +1,4 @@
-# Bioinformatics String Algorithms
+# Bioinformatics Stronghold
 ## Description ##
 This is my collection of Python codes that I wrote to solve the programming problems on the [Rosalind](http://rosalind.info/problems/list-view/) platform.
 I checked my codes on the [Rosalind Bioinformatics website](http://rosalind.info/problems/list-view/).
