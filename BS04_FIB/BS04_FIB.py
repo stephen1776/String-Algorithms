@@ -24,5 +24,5 @@ if __name__ == '__main__':
     else:
         n = 5
         k = 3
-        #print(fib(n,k))
+        print(fib(n,k))
         # sample output = 19
