@@ -12,9 +12,9 @@ def ReverseComplement(dna):
     return complementDNA[::-1]  # reverse the complement
 
 
-if __name__ == '__main__':
+def main():
     filename = '../data/rosalind_revc.txt'
-    if os.path.isfile('../data/rosalind_revc.txt') == True:
+    if os.path.isfile(filename) == True:
         with open(filename) as f:
             dna = f.read().strip()
             print(''.join(ReverseComplement(dna)))
@@ -22,3 +22,6 @@ if __name__ == '__main__':
         dna = 'AAAACCCGGT'
         print(''.join(ReverseComplement(dna)))
         # sample output = ACCGGGTTTT
+
+if __name__ == '__main__':
+    main()

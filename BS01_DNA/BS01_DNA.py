@@ -13,11 +13,9 @@ def CountingDNANucleotides(dna):
         result.append(dna.count(i))
     return result
 
-
-
-if __name__ == '__main__':
-    filename = 'data/rosalind_dna.txt'
-    if os.path.isfile('data/rosalind_dna.txt') == True:
+def main():
+    filename = '../data/rosalind_dna.txt'
+    if os.path.isfile(filename) == True:
         with open(filename) as f:
             dna = f.read().strip()
             print(*CountingDNANucleotides(dna))
@@ -25,3 +23,8 @@ if __name__ == '__main__':
         dna = 'AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC'
         print(*CountingDNANucleotides(dna))
         # sample output = 20 12 17 21
+
+
+
+if __name__ == '__main__':
+    main()

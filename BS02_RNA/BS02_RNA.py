@@ -10,11 +10,9 @@ def TranscribingDNAtoRNA(dna):
     rna = dna.replace('T', 'U')
     return rna
 
-
-
-if __name__ == '__main__':
+def main():
     filename = '../data/rosalind_rna.txt'
-    if os.path.isfile('../data/rosalind_rna.txt') == True:
+    if os.path.isfile(filename) == True:
         with open(filename) as f:
             dna = f.read().strip()
             print(TranscribingDNAtoRNA(dna).replace(' ', ''))
@@ -22,3 +20,7 @@ if __name__ == '__main__':
         dna = 'GATGGAACTTGACTACGTAAATT'
         print(TranscribingDNAtoRNA(dna).replace(' ', ''))
         # sample output = GAUGGAACUUGACUACGUAAAUU
+
+
+if __name__ == '__main__':
+    main()

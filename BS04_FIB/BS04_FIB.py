@@ -13,9 +13,10 @@ def fib(n,k):
         a, b = b, k * a + b
     return b
 
-if __name__ == '__main__':
+
+def main():
     filename = '../data/rosalind_fib.txt'
-    if os.path.isfile('../data/rosalind_fib.txt') == True:
+    if os.path.isfile(filename) == True:
         with open(filename) as f:
             line = f.read().split()
             n = int(line[0])
@@ -26,3 +27,10 @@ if __name__ == '__main__':
         k = 3
         print(fib(n,k))
         # sample output = 19
+
+
+
+if __name__ == '__main__':
+    main()
+
+
