@@ -62,3 +62,39 @@ Given: Two DNA strings s and t of equal length (not exceeding 1 kbp).
 
 Return: The Hamming distance d<sub>H</sub>(s,t).
 ___
+##### 07 Mendel's First Law
+Topics: [Heredity](http://rosalind.info/problems/topics/heredity/), [Probability](http://rosalind.info/problems/topics/probability/)
+
+URL: http://rosalind.info/problems/iprb/
+
+Given: Three positive integers k, m, and n, representing a population containing k+m+n organisms: k individuals are homozygous dominant for a factor, m are heterozygous, and n are homozygous recessive.
+
+Return: The probability that two randomly selected mating organisms will produce an individual possessing a dominant allele (and thus displaying the dominant phenotype). Assume that any two organisms can mate.
+___
+##### 08 Translating RNA into Protein
+Topics: [String Algorithms](http://rosalind.info/problems/topics/string-algorithms/)
+
+URL: http://rosalind.info/problems/prot/
+
+Given: An RNA string s corresponding to a strand of mRNA (of length at most 10 kbp).
+
+Return: The protein string encoded by s.
+___
+##### 09 Finding a Motif in DNA
+Topics: [String Algorithms](http://rosalind.info/problems/topics/string-algorithms/)
+
+URL: http://rosalind.info/problems/subs/
+
+Given: Two DNA strings s and t (each of length at most 1 kbp).
+
+Return: All locations of t as a substring of s.
+___
+##### 10 Mortal Fibonacci Rabbits
+Topics: [Combinatorics](http://rosalind.info/problems/topics/combinatorics/), [Dynamic Programming](rosalind.info/problems/topics/dynamic-programming/)
+
+URL: http://rosalind.info/problems/fibd/
+
+Given: Positive integers n≤100 and m≤20.
+
+Return: The total number of pairs of rabbits that will remain after the n<sup>th</sup> month if all rabbits live for m months.
+___
