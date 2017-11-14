@@ -13,8 +13,8 @@ import os
 
 def mendel_first(k, m, n):
     '''
-    Find the four cases that result in an organism without a dominant allele, then subtract that from 1 to get
-    the probability of an individuL that displays the dominant trait.
+    Find the four cases that result in an individual without a dominant allele, then subtract that from 1 to get
+    the probability of an individual that displays the dominant trait.
     '''
 
     population = float(k + m + n)
