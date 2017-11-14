@@ -17,7 +17,7 @@ def mendel_first(k, m, n):
     the probability of an individual that displays the dominant trait.
     '''
 
-    population = float(k + m + n)
+    population = k + m + n
     prob_1 = (n / population) * (n - 1) / (population - 1) * 1.0
     prob_2 = (m / population) * (m - 1) / (population - 1) * 0.25
     prob_3 = (m / population) * n / (population - 1) * 0.5
