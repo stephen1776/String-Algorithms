@@ -19,9 +19,9 @@ def mendel_first(k, m, n):
 
     population = float(k + m + n)
     prob_1 = (n / population) * (n - 1) / (population - 1) * 1.0
-    prob_2 = (m / population) * (m - 1) / (population - 1) * 1 / 4
-    prob_3 = (m / population) * n / (population - 1) * 1 / 2
-    prob_4 = (n / population) * m / (population - 1) * 1 / 2
+    prob_2 = (m / population) * (m - 1) / (population - 1) * 0.25
+    prob_3 = (m / population) * n / (population - 1) * 0.5
+    prob_4 = (n / population) * m / (population - 1) * 0.5
 
     prob = 1 - (prob_1 + prob_2 + prob_3 + prob_4)
 
