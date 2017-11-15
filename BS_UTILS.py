@@ -17,5 +17,19 @@ def parseFasta(file, no_id=True):
             return seqs
         else:
             return seqs[0]
-    else: # If no_id is set to False, return a dictionary of sequences with associated sequence id.
+    else: # If no_id is set to False, return sequences with associated sequence id.
         return dict(zip(seq_ids, seqs))
+
+
+def codonTable(seq_type='rna'):
+    if seq_type == 'rna':
+        bases = ['U', 'C', 'A', 'G']
+    else:
+        bases = ['T', 'C', 'A', 'G']
+    # See Codon table http://rosalind.info/glossary/rna-codon-table/
+    codons = [a + b + c for a in bases for b in bases for c in bases]
+    amino_acids = 'FFLLSSSSYY$$CC$WLLLLPPPPHHQQRRRRIIIMTTTTNNKKSSRRVVVVAAAADDEEGGGG' # $ = stop
+    # Will need to call by 3's
+    codon_table = dict(zip(codons, amino_acids))
+
+    return codon_table # Return codons and corresponding amino acids
