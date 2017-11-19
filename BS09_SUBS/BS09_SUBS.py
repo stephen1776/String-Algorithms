@@ -11,14 +11,13 @@ def findingMotifs(s,t):
     for i in range(len(s)):
         if s.startswith(t, i):
             inds.append(i+1)
-
-    return ' '.join(map(str, inds))
+    return inds
 
 def main():
     filename = '../data/rosalind_subs.txt'
     with open(filename) as f:
         s, t = f.read().strip().split('\n')
-        print(findingMotifs(s,t))
+        print(*findingMotifs(s,t))
 
 
 if __name__ == '__main__':
