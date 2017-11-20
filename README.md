@@ -89,7 +89,16 @@ Given: Two DNA strings s and t (each of length at most 1 kbp).
 
 Return: All locations of t as a substring of s.
 ___
-##### 10 Mortal Fibonacci Rabbits
+#### 10 Consensus and Profile: Finding a Most Likely Common Ancestor
+Topics: [String Algorithms](http://rosalind.info/problems/topics/string-algorithms/)
+
+URL: http://rosalind.info/problems/cons/
+
+Given: A collection of at most 10 DNA strings of equal length (at most 1 kbp) in FASTA format.
+
+Return: A consensus string and profile matrix for the collection.
+___
+##### 11 Mortal Fibonacci Rabbits
 Topics: [Combinatorics](http://rosalind.info/problems/topics/combinatorics/), [Dynamic Programming](rosalind.info/problems/topics/dynamic-programming/)
 
 URL: http://rosalind.info/problems/fibd/
