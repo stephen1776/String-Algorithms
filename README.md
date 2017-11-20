@@ -98,7 +98,7 @@ Given: A collection of at most 10 DNA strings of equal length (at most 1 kbp) in
 
 Return: A consensus string and profile matrix for the collection.
 ___
-##### 11 Mortal Fibonacci Rabbits
+#### 11 Mortal Fibonacci Rabbits
 Topics: [Combinatorics](http://rosalind.info/problems/topics/combinatorics/), [Dynamic Programming](rosalind.info/problems/topics/dynamic-programming/)
 
 URL: http://rosalind.info/problems/fibd/
