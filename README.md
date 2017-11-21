@@ -73,3 +73,9 @@ URL: http://rosalind.info/problems/fibd/
 Given: Positive integers n≤100 and m≤20.  
 Return: The total number of pairs of rabbits that will remain after the n<sup>th</sup> month if all rabbits live for m months.
 ___
+#### 12 Overlap Graphs
+Topics: [Graph Algorithms](http://rosalind.info/problems/topics/graph-algorithms/)  
+URL: http://rosalind.info/problems/grph/  
+Given: A collection of DNA strings in FASTA format having total length at most 10 kbp.  
+Return: The adjacency list corresponding to O<sub>3</sub>. You may return edges in any order.  
+___
