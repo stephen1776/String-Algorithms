@@ -9,7 +9,7 @@ ___
 #### 01 Counting DNA Nucleotides
 Topics: [String Algorithms](http://rosalind.info/problems/topics/string-algorithms/)
 URL: http://rosalind.info/problems/dna/
-Given: A DNA string s of length at most 1000 nt.   
+Given: A DNA string s of length at most 1000 nt.
 Return: Four integers (separated by spaces) counting the respective number of times that the symbols 'A', 'C', 'G', and 'T' occur in s.
 ___
 #### 02 Transcribing DNA into RNA
