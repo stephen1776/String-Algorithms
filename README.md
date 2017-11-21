@@ -50,9 +50,9 @@ Given: Three positive integers k, m, and n, representing a population containing
 Return: The probability that two randomly selected mating organisms will produce an individual possessing a dominant allele (and thus displaying the dominant phenotype). Assume that any two organisms can mate.
 ___
 #### 08 Translating RNA into Protein
-Topics: [String Algorithms](http://rosalind.info/problems/topics/string-algorithms/)
-URL: http://rosalind.info/problems/prot/
-Given: An RNA string s corresponding to a strand of mRNA (of length at most 10 kbp).
+Topics: [String Algorithms](http://rosalind.info/problems/topics/string-algorithms/)  
+URL: http://rosalind.info/problems/prot/  
+Given: An RNA string s corresponding to a strand of mRNA (of length at most 10 kbp).  
 Return: The protein string encoded by s.
 ___
 #### 09 Finding a Motif in DNA
