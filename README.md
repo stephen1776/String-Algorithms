@@ -7,15 +7,15 @@ This is my collection of Python codes that I wrote to solve the programming prob
 My ROSALIND Profile: http://rosalind.info/users/spblatti/
 ___
 #### 01 Counting DNA Nucleotides
-Topics: [String Algorithms](http://rosalind.info/problems/topics/string-algorithms/)
-URL: http://rosalind.info/problems/dna/
-Given: A DNA string s of length at most 1000 nt.
+Topics: [String Algorithms](http://rosalind.info/problems/topics/string-algorithms/)  
+URL: http://rosalind.info/problems/dna/  
+Given: A DNA string s of length at most 1000 nt.  
 Return: Four integers (separated by spaces) counting the respective number of times that the symbols 'A', 'C', 'G', and 'T' occur in s.
 ___
 #### 02 Transcribing DNA into RNA
-Topics: [String Algorithms](http://rosalind.info/problems/topics/string-algorithms/)
-URL: http://rosalind.info/problems/rna/
-Given: A DNA string t having length at most 1000 nt.
+Topics: [String Algorithms](http://rosalind.info/problems/topics/string-algorithms/)  
+URL: http://rosalind.info/problems/rna/  
+Given: A DNA string t having length at most 1000 nt.  
 Return: The transcribed RNA string of t.
 ___
 #### 03 Complementing a Strand of DNA
